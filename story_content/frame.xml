@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Documenty_klienta_11.02.2021" />
+              <option name="title_text" value="Documenty_klienta_23.04.2021" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -35,7 +35,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -72,7 +72,7 @@
               <option name="font" value="Open Sans" />
             </options>
           </option>
-          <option name="settings" value="true" />
+          <option name="settings" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1136,14 +1136,20 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="three_image_items">предметы</string>
+      <string id="three_image_viewed">просмотренного</string>
+      <string id="three_image_of">из</string>
+      <string id="three_image_item">предмет</string>
       <string id="accessible_text">Доступный текст</string>
+      <string id="keyboardshortcuts_lower">Сочетания клавиш на клавиатуре</string>
+      <string id="zoom_to_fit">Приближайте, чтобы подогнать по размеру</string>
       <string id="acc_active">активна</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Додати до списку</string>
       <string id="clear">Сброс і повернення в меню</string>
       <string id="close">Закрити</string>
       <string id="acc_closed_captions">Закриті підписи. Натисніть клавішу пробілу, щоб включити або вимкнути субтитри.</string>
-      <string id="closed_captions_tip">Субтитры</string>
+      <string id="closed_captions_tip">Переключение субтитров</string>
       <string id="continue">Продовжити</string>
       <string id="continueresponsive">Продовжити</string>
       <string id="ctrl_key">Ctrl</string>
@@ -1190,17 +1196,19 @@
       <string id="acc_previous">назад</string>
       <string id="previous_slide_tip">Предыдущий слайд</string>
       <string id="question_list">Перелік запитань</string>
-      <string id="replay_tip">Повторить слайд</string>
+      <string id="replay_tip">Повторить</string>
       <string id="acc_replay">повтор</string>
       <string id="resources">Ресурси</string>
       <string id="acc_resources">ресурси</string>
       <string id="restart">Почати спочатку</string>
       <string id="resume">Возобновить тест</string>
+      <string id="acc_locked">запер(ла) дверь</string>
       <string id="acc_search_input">пошук</string>
       <string id="search_toggle">Поиск</string>
       <string id="sidebar_toggle">Переключение боковых панелей</string>
       <string id="desktop_start">Начать курс</string>
       <string id="mobile_start">Начать курс</string>
+      <string id="acc_visited">посетил(а)</string>
       <string id="search">Пошук...</string>
       <string id="search_in">Пошук:</string>
       <string id="search_results">Результати пошуку</string>
@@ -1216,7 +1224,6 @@
       <string id="submit_tip">Добавить</string>
       <string id="unmute_tip">Вкл. звук</string>
       <string id="acc_volume">гучність</string>
-      <string id="zoom_to_fit">Приближайте, чтобы подогнать по размеру</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1246,7 +1253,6 @@
             <slidelink slideid="_player.6XqmT0t7Uwt.6XWZLdYdqrF" displaytext="Pick One" expand="false" type="slide" />
             <slidelink slideid="_player.6XqmT0t7Uwt.5YMs1l89MbN" displaytext="Pick One" expand="false" type="slide" />
             <slidelink slideid="_player.6XqmT0t7Uwt.6dwQhrQs5dN" displaytext="Pick One" expand="false" type="slide" />
-            <slidelink slideid="_player.6XqmT0t7Uwt.6NJppxSoC39" displaytext="The_End" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5f4hG7ZeXca" displaytext="Passport" expand="true" type="slide">
